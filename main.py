@@ -9,11 +9,11 @@ def get_seats_summary() -> None:
     url = "https://ticket.melon.com/tktapi/product/block/summary.json?v=1" 
    
     body = {
-        'prodId': '209371',
+        'prodId': '210341',
         'pocCode': 'SC0002',
         'scheduleNo': '100002',
         'perfDate': '',
-        'seatGradeNo': '',
+        'seatGradeNo': '11801',
         'corpCodeNo': ''
     }
 
